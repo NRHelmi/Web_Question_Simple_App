@@ -1,0 +1,12 @@
+#wrapper {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #cccccc;
+    opacity: 0.9;
+    height:  658px;
+}
+#container{
+  background-image: url("../img/background.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
