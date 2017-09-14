@@ -1,14 +1,14 @@
-# HTML5_PHP5_CSS3_Question_Simple_App
-
-* copy app files under the www folder of your php server 
-* database configuration:
+# Simple_Questions_App
+Simple_Question_App simplifies the creation of multiple choice customizable questions sheet written in HTML5, PHP5, CSS3 and MariaDB.  
+* Copy app files under the www folder of your php server 
+* Database configuration:
 ```
 'DB_SERVER', 'localhost'
 'DB_USERNAME', 'root'
 'DB_PASSWORD', 'root'
 'DB_DATABASE', 'questionApp'
 ```
-* database and table creation:
+* Database and table creation:
 ```
 create database questionApp;
 create table login(id integer primary key auto_increment,username varchar(10), passwd varchar(10), root integer);
